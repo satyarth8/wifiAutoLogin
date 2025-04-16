@@ -19,8 +19,8 @@ def ascii_banner():
 
 def login():
     payload = {
-        "username": "22155154036",
-        "password": "4210"
+        "username": "user_id", # Enter your user_ID
+        "password": "password" # Enter your Password
     }
     login_url = "http://geckhagaria.com/login"
     headers = {
